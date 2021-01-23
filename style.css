@@ -1,0 +1,63 @@
+.form-container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.label {
+    width: 30%;
+    height: 50px;
+    font-size: 25px;
+    color: #16728b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 5px;
+    
+}
+
+.show-password {
+    font-size: 30px;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show-password  span {
+    height: 40px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #337384;
+    border-radius: 10px;
+    text-align: center;
+}
+.button {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.button span {
+    font-size: 20px;
+    color: white;
+    width: 30%;
+    height: 50px;
+    border: 1px solid #337384;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    background-color: #16728b;
+    letter-spacing: 5px;
+    cursor: pointer;
+}
+
